@@ -1,0 +1,79 @@
+/*put a console.log on photo usage*/
+
+.full {
+  background: url('kilpisjarvi.jpg') no-repeat center center fixed; 
+  position: relative;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+	margin-top: 30px;
+	margin-bottom: 50px;
+	background: none;
+}
+
+h1 {
+	font-family: 'Cutive Mono', ;
+	color: white;
+}
+
+h2 {
+	font-family: 'Cutive Mono', ;
+	font-size: 15px;
+	color: orange;
+	margin-top: 5px;
+	margin-bottom: 5px
+}
+
+p {
+	font-family: 'Cutive Mono', ;
+	padding-left: 10px;
+}
+
+.photo_credit {
+	margin-bottom: 10px;
+	margin-right: 10px;
+}
+
+.photo_credit a {
+	font-family: 'Cutive Mono', ;
+	padding-right: 10px;
+	color: grey;
+}
+
+.photo_credit a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+img {
+	display: block;
+	height: auto;
+	max-width: 100%;
+}
+
+ul {
+	  padding-left: 0px;
+}
+
+#links a {
+  color: lightgrey;
+  margin-right: 15px;
+  font-size: 15px;
+}
+
+#links a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.goodreads {
+    font-family: Arial, Sans-Serif;
+    font-size: 26px;
+    line-height: 25px;
+}
