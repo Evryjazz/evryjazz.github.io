@@ -1,1 +1,1 @@
-console.log('\r\n%c Hi geekyNerdy, find more info here > https://github.com/Evryjazz/evryjazz.github.io or contact me at hello@julienzanni.fr', 'color:orange');
+console.log('\r\n%c Hi geekyNerdy, find more info here >>', '\r\n%c https://github.com/Evryjazz/evryjazz.github.io' '\r\n%c or contact me at ', '\r\n%c hello@julienzanni.fr', 'color:#F5B82E', 'color:#97DB4F', 'color:#F5B82E', 'color:#97DB4F');
