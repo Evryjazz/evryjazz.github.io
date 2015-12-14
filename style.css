@@ -18,12 +18,12 @@ body {
 }
 
 h1 {
-	font-family: 'Cutive Mono', ;
+	font-family: 'Cutive Mono';
 	color: white;
 }
 
 h2 {
-	font-family: 'Cutive Mono', ;
+	font-family: 'Cutive Mono';
 	font-size: 15px;
 	color: orange;
 	margin-top: 5px;
@@ -31,7 +31,7 @@ h2 {
 }
 
 p {
-	font-family: 'Cutive Mono', ;
+	font-family: 'Cutive Mono';
 	padding-left: 10px;
 }
 
@@ -41,7 +41,7 @@ p {
 }
 
 .photo_credit a {
-	font-family: 'Cutive Mono', ;
+	font-family: 'Cutive Mono';
 	padding-right: 10px;
 	color: grey;
 }
