@@ -27,7 +27,7 @@ h2 {
 	font-size: 15px;
 	color: orange;
 	margin-top: 5px;
-	margin-bottom: 5px
+	margin-bottom: 5px;
 }
 
 p {
@@ -64,7 +64,7 @@ ul {
 #links a {
   color: lightgrey;
   margin-right: 15px;
-  font-size: 15px;
+  font-size: 16px;
 }
 
 #links a:hover {
@@ -76,4 +76,62 @@ ul {
     font-family: Arial, Sans-Serif;
     font-size: 26px;
     line-height: 25px;
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+	body {
+		margin-top: 5px;
+		margin-bottom: 50px;
+		background: none;
+	}
+	h2 {
+		font-family: 'Cutive Mono';
+		font-size: 18px;
+		color: orange;
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+	ul {
+	    padding-top: 16px;
+	}
+	#links a {
+		color: white;
+		margin-right: 15px;
+		font-size: 20px;
+	}
+	.photo_credit a {
+		font-family: 'Cutive Mono';
+		padding-right: 6px;
+		color: white;
+	}
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+	body {
+		margin-top: 5px;
+		margin-bottom: 50px;
+		background: none;
+	}
+	h2 {
+		font-family: 'Cutive Mono';
+		font-size: 18px;
+		color: orange;
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+	ul {
+	    padding-top: 16px;
+	}
+	#links a {
+		color: white;
+		margin-right: 15px;
+		font-size: 20px;
+	}
+	.photo_credit a {
+		font-family: 'Cutive Mono';
+		padding-right: 6px;
+		color: white;
+	}
 }
